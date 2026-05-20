@@ -15,6 +15,15 @@ AI-powered Telegram chatbot for sentiment analysis using Python, Hugging Face Tr
 - Gemini AI
 - Pillow
 
+## Workflow
+
+1. User sends text/image
+2. BLIP generates image caption
+3. Transformers analyze sentiment
+4. Gemini AI handles sarcasm and low-confidence cases
+5. Bot returns sentiment result
+   
+
 ## Installation
 
 1. Clone the repository
