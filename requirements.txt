@@ -1,0 +1,6 @@
+torch
+transformers
+python-telegram-bot
+google-generativeai
+python-dotenv
+Pillow
