@@ -8,7 +8,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQu
 import google.generativeai as genai
 
 # Load environment variables from .env file
-load_dotenv("C:/Users/ajays/OneDrive/Desktop/.env")
+load_dotenv()
 
 # Get API keys from environment variables
 TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
@@ -26,7 +26,7 @@ sentiment_analyzer = pipeline("sentiment-analysis", model="cardiffnlp/twitter-ro
 
 # Configure Gemini AI
 genai.configure(api_key=GEMINI_API_KEY)
-user_chatting = {}
+active_chat_sessions = {}
 
 # Gemini text generation helper
 def get_gemini_response(prompt):
