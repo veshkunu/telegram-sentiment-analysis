@@ -8,6 +8,16 @@ AI-powered Telegram chatbot for sentiment analysis using Python, Hugging Face Tr
 - AI-generated responses
 - Image analysis support
 
+## 📸 Screenshots
+
+### Telegram Bot Demo
+
+![Bot Demo](images/1.png)
+
+### Sentiment Analysis Result
+
+![Sentiment Result](images/2.png)
+
 ## Technologies Used
 - Python
 - Transformers
